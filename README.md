@@ -1,5 +1,5 @@
 # Address Geocoding Tool
-A Python GUI application that converts addresses from Excel files into geographical coordinates (latitude and longitude) using the Nominatim geocoding service.
+A Python GUI application that converts German addresses from Excel files into geographical coordinates (latitude and longitude) using the Nominatim geocoding service.
 
 ## Prerequisites
 ### Required Python packages
@@ -16,7 +16,7 @@ pip install pandas geopy openpyxl pyinstaller
 
 ## Installation & Setup
 ### Clone the repository:
-git clone <repository-url>
+git clone "repository-url"
 
 ### Create executable:
 pyinstaller --onefile --windowed --name GeocodingTool test.py
